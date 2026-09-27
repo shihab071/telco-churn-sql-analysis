@@ -15,7 +15,7 @@ SELECT COUNT(*) AS missing_total_charges
 FROM telco_customers_raw
 WHERE TRIM(total_charges) = '';
 
---missing customers of totalcharges
+-- Investigate customers with missing TotalCharges
 
 
 select  customer_id, 
